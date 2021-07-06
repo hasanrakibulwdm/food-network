@@ -113,4 +113,14 @@ footer{
    display: inline-block;
 
 }
+.gallery{
+    text-align: center;
+}
+.pic{
+    margin: 80px;
+}
+.pic img{
 
+    width: 365px;
+    height: 365px;
+}
