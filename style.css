@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+.orange{
+    color: orange;
+}
+
+.hero {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img{
+    width: 90%;
+
+}
+.person img{
+    width: 70%;
+    padding-left: 10%;
+}
+
+.content{
+    padding-left: 10%;
+    margin-top: 130px;
+}
+.button{
+    padding: 15px 40px;
+    background-image: linear-gradient(45deg, orange,red);
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    display:inline-block; 
+}
+.image{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    
+}
+.receipe{
+    display: flex;
+}
+.block{
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 5px 5px 30px gray;
+    border-radius: 15px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.block img{
+    width: 95%;
+    margin: auto;
+    display: inline-block;
+
+}
+.my{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.counter{
+    display: flex;
+    width: 86%;
+    margin: auto;
+    box-shadow: 5px 5px 30px gray;
+    border-radius: 20px;
+    padding: 60px 0;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.social_width{
+    width: 32%;
+    text-align: center;
+}
+.social_width h1{
+    color: rgb(7, 7, 7);
+    margin-bottom: 0;
+    line-height: 25px;
+}
+footer{
+    text-align: center;
+    padding: 80px 0;
+    background-color: #130942;
+    color: white;
+}
+.header{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.header a{
+   text-decoration: none;
+   color: black;
+   padding: 20px 40px;
+   margin: 0 10px;
+   font-size: 18px;
+   display: inline-block;
+
+}
+
